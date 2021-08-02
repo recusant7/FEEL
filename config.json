@@ -1,0 +1,31 @@
+{
+  "clients": {
+    "num": 20,
+    "f_max": 5e7,
+    "f_min":  1e7,
+    "cycles_max": 2e5,
+    "cycles_min": 7e4,
+    "coefficient_max": 2e-22,
+    "coefficient_min": 1e-22,
+    "data_size_max": 600,
+    "data_size_min": 400,
+    "p_max": 5e-5,
+    "p_min": 5e-5,
+    "battery_max": 3e4,
+    "battery_min": 2e4
+  },
+  "wireless": {
+    "bandwidth_max": 5e6,
+    "bandwidth_min": 5e6,
+    "h": 1,
+    "variance": 1e-9
+  },
+  "FL": {
+    "epoch": 1000,
+    "E": 5,
+    "T": 100
+  },
+  "DRL": {
+    "lambada": 0.5
+  }
+}
